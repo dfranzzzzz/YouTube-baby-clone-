@@ -5,6 +5,26 @@ body {
   border: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p {
+  color: #fff;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 header,
 header > * {
   display: flex;
@@ -40,13 +60,14 @@ header {
   border: 1px solid hsla(0, 0%, 53.3%, 0.4);
   border-right: none;
   outline: none;
+  color: #fff;
 }
 
 input {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-left: 4px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-left: 4px;
 }
 
 #search_logo {
@@ -117,8 +138,10 @@ iframe {
 
 #video_interactions {
   margin: 0.5em 0;
+  padding-bottom: .5em;
   display: flex;
   justify-content: space-between;
+  border-bottom: 1.5px solid hsl(0, 0%, 18.82%);
 }
 
 #interactions_left,
@@ -139,6 +162,107 @@ iframe {
   cursor: pointer;
 }
 
+#video_descriptions {
+  margin: 1em 0;
+  border-bottom: 1.5px solid hsl(0, 0%, 18.82%);
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+
+}
+#profile > * {
+  display: inline-block;
+  margin-right: 1em;
+  color: #aaa;
+}
+
+#des_topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#des_topbar > button {
+  background: red;
+  height: 36px;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 15px;
+}
+
+.profile_pic > img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+#description {
+  margin: 1em 0 1em 3.5em;
+  padding-right: 110px;
+}
+
+#description > h5 {
+  color: #aaa;
+  cursor: pointer;
+}
+
+#video_comments > * {
+  margin: 1.5em 0;
+}
+
+#comment_topbar > p{
+  font-size: medium;
+}
+
+#add_comment {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+
+#user_comment {
+  flex: 1;
+  margin-left: 1em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1.5px solid hsl(0, 0%, 18.82%);
+  color: #aaa;
+  outline: none;
+}
+
+.one_comment {
+  display: flex;
+  margin: 1em 0;
+}
+
+#comment_info {
+  margin: 0 1em;
+  color: #fff;
+}
+
+#comment_info > * {
+  margin: .5em 0;
+}
+
+#comment_info span {
+  color: #aaa;
+  font-weight: 300;
+}
+
+#comment_interaction > * {
+  display: inline-block;
+}
+
+#comment_interaction > p,
+#comment_interaction {
+color: #aaa;
+font-weight: 300;
+}
+
+#comment_interaction img {
+  height: 14px;
+}
 
 
 /* featured section */
