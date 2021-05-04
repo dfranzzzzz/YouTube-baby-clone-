@@ -105,7 +105,7 @@ button {
 /* video section */
 
 #content {
-  width: 62%;
+  width: 63%;
 }
 
 iframe {
@@ -268,5 +268,55 @@ font-weight: 300;
 /* featured section */
 
 #featured {
-  width: 37%;
+  width: 33%;
+  margin: 0 1em ;
 }
+
+#featured_tabs > button {
+  border: 1px solid #474747;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  margin: 0 0.5em 0 0;
+  background: hsl(0, 0%, 18.82%);
+  transition: 0.5s;
+}
+
+#featured_tabs > button:hover {
+  background: hsla(0, 0%, 53.3%, 0.4);
+}
+
+#featured_videos {
+  width: 100%;
+  margin: 1.2em 0 1.2em -0.2em;
+}
+
+#one_video {
+  margin: 1em 0;
+}
+
+#featured_videos img {
+  width: 100%;
+}
+
+#feat_video {
+  width: 45%;
+}
+
+#feat_video a img:last-child {
+  display: none;
+}  
+
+#feat_video a:hover img:last-child {
+  display: block;
+}
+
+#feat_video a:hover img:first-child {
+  display: none;
+}
+
+#feat_video_info {
+  width: 40%;
+  font-size: smaller;
+  height: 110px;
+}
+
